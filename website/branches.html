@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Branches - Digital Espresso</title>
+    <style>
+        html, body {
+            background-color: #8B4513;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header img, footer img {
+            max-height: 100%;
+            width: 100%;
+        }
+        nav {
+            margin: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            text-align: center;
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .branch-container {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            max-width: 1200px;
+            margin-bottom: 20px;
+        }
+        .branch {
+            text-align: center;
+            margin: 10px;
+        }
+        .branch-hours {
+            font-size: 16px;
+            color: #D3D3D3;
+            margin-top: 10px;
+        }
+        .branch img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .branch h2 {
+            margin-bottom: 5px;
+        }
+        .branch p {
+            font-size: 18px;
+            text-decoration: bold
+        }
+        .return-btn {
+            background-color: #5A2E18;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .return-btn:hover {
+            background-color: #6B3E26;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Header.png" alt="Header">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="branches.html">Branches</a>
+        <a href="aboutus.html">About</a>
+    </nav>
+    <main>
+        <h1>Our Branches</h1>
+        <div class="branch-container">
+            <div class="branch">
+                <img src="Manila Branch.png" alt="Digital Espresso Manila Branch">
+                <h2>📍 Manila</h2>
+                <p>147 Latte Street, Manila City, Philippines</p>
+                <p class="branch-hours">Mon to Fri: 6:00 AM - 2:00 AM</p>
+                <p class="branch-hours">Sat to Sun: 8:00 AM - 12:00 AM</p>
+            </div>
+            <div class="branch">
+                <img src="Cebu Branch.png" alt="Digital Espresso Cebu Branch">
+                <h2>📍 Cebu</h2>
+                <p>456 Brew Street, Cebu City, Philippines</p>
+                <p class="branch-hours">Mon to Fri: 7:00 AM - 12:00 AM</p>
+                <p class="branch-hours">Sat to Sun: 9:30 AM - 10:30 PM</p>
+            </div>
+            <div class="branch">
+                <img src="Davao Branch.png" alt="Digital Espresso Davao Branch">
+                <h2>📍 Davao</h2>
+                <p>913 Cold Brew Road, Davao City, Philippines</p>
+                <p class="branch-hours">Mon to Fri: 7:30 AM - 11:30 PM</p>
+                <p class="branch-hours">Sat to Sun: 8:30 AM - 11:00 PM</p>
+            </div>
+        </div>
+        <a href="index.html" class="return-btn">← Return to Home</a>
+    </main>
+    <footer>
+        <img src="Footer.png" alt="Footer">
+    </footer>
+</body>
+</html>

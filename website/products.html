@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products - Digital Espresso</title>
+    <style>
+        html, body {
+            background-color: #8B4513;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header img, footer img {
+            max-height: 100%;
+            width: 100%;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            text-align: center;
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: #6B3E26;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #5A2E18;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .return-btn {
+            background-color: #5A2E18;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .return-btn:hover {
+            background-color: #6B3E26;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Header.png" alt="Header">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="branches.html">Branches</a>
+        <a href="aboutus.html">About</a>
+    </nav>
+    <main>
+        <h1>Our Menu</h1>
+        <table>
+            <tr>
+                <th>Product Image</th>
+                <th>Product Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td><img src="Caramel Macchiato.png" alt="Caramel Macchiato"></td>
+                <td><a href="Caramel Macchiato.html" style="color: white;">Caramel Macchiato</a></td>
+                <td>PHP 200</td>
+            </tr>
+            <tr>
+                <td><img src="Mocha Latte.png" alt="Mocha Latte"></td>
+                <td><a href="Mocha Latte.html" style="color: white;">Mocha Latte</a></td>
+                <td>PHP 185</td>
+            </tr>
+            <tr>
+                <td><img src="Cappuccino.png" alt="Cappuccino"></td>
+                <td><a href="Cappuccino.html" style="color: white;">Cappuccino</a></td>
+                <td>PHP 170</td>
+            </tr>
+        </table>
+        <a href="index.html" class="return-btn">← Return to Home</a>
+    </main>
+    <footer>
+        <img src="Footer.png" alt="Footer">
+    </footer>
+</body>
+</html>
